@@ -1,3 +1,16 @@
+//EASY- 2
+
+// NAVIGATOR : JOSE PORTILLO
+// NAVIGATOR : TYRA FAIR
+
+//Create a function that checks an array for prime numbers then inserts any pimes into a new array.            
+
+//arr is the argument (where the array numbers go)
+//create "for" loop
+//USING FACRORIZATION(finding what numbers it can be divided by to find prime number)
+
+
+
 function numArray(arr) {
     let sortArray = [];
     arr.forEach((num) => {
