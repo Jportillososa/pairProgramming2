@@ -1,8 +1,8 @@
 
 //MEDIUM #3
 
-// Jose Portillo- NAVIGATOR 
-// Tyra Fair - DRIVER
+// NAVIGATOR: Jose Portillo
+// DRIVER: Tyra Fair 
 
 
 //GREATES COMMON DIVISER---the largest positive integer that divides two numbers
