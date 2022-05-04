@@ -12,16 +12,19 @@ let car = {
     make: "Ford",
     model: "Ranger",
     year: 2021,
-    mileage: 123456,
+    mileage: 12000,
     color: "black"
 }
 
 let driveToWork = () => (car.mileage + 33);
-let driveAroundTheWorld = () => (car.mileage + 24000);
-let runErrands = () => (car.mileage + 30);
+let driveAroundTheWorld = () => driveToWork() + 24000;
+let runErrands = () => driveAroundTheWorld() + 30;
 
 
 console.log(`This is the old mileage : ${car.mileage}`);
 console.log(`This is the new mileage after going to work : ${driveToWork()}`);
+console.log(`This is the mileage now : ${driveToWork()}`);
 console.log(`This is the new mileage after driving around the world : ${driveAroundTheWorld()}`);
+console.log(`This is the mileage now : ${driveAroundTheWorld()}`);
 console.log(`This is the new mileage after running Errands : ${runErrands()}`);
+console.log(`This is the mileage now : ${runErrands()}`);

@@ -4,13 +4,10 @@
 // DRIVER : Jose Portillo
 
 
-
-
-
 function checkBrackets() {
 
     // This is the string it checks ----->>>>
-    let str = '[Hello World]';
+    let str = '{Hello World}';
 
     // Finding the character at given index 
     // var value = str.charAt(0); // this checks the first character
