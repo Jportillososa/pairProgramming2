@@ -10,7 +10,6 @@
 //USING FACTORIZATION(finding what numbers it can be divided by to find prime number)
 
 
-
 function numArray(arr) {
     let sortArray = [];
     arr.forEach((num) => {
@@ -37,3 +36,4 @@ function numArray(arr) {
 }
 
 numArray([10, 18, 19, 29, 33, 35, 47, 66, 83])
+
